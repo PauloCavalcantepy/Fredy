@@ -1,0 +1,32 @@
+#parado {
+    position: relative;
+    left: 0;
+    top: 70px;
+    z-index: 2;
+    transition: left 0.1s ease;
+}
+
+#parado img {
+    width: 580px;
+    height: auto;
+    
+}
+
+#estrada {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#estrada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
